@@ -1,0 +1,903 @@
+{
+ "spell_fire_wind": {
+  "file": "sheets/spell_fire_wind.png",
+  "frameWidth": 56,
+  "frameHeight": 72,
+  "frames": 8,
+  "fps": 12,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "spell",
+  "spell": "fire_wind",
+  "description": "พายุเพลิงโหม (ไฟ+ลม) — vortex"
+ },
+ "spell_fire_water": {
+  "file": "sheets/spell_fire_water.png",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 8,
+  "fps": 16,
+  "loop": false,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "spell",
+  "spell": "fire_water",
+  "description": "ระเบิดไอน้ำเดือด (น้ำ+ไฟ) — burst"
+ },
+ "spell_fire_earth": {
+  "file": "sheets/spell_fire_earth.png",
+  "frameWidth": 56,
+  "frameHeight": 48,
+  "frames": 7,
+  "fps": 14,
+  "loop": false,
+  "anchor": [
+   0.5,
+   1.0
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": false,
+  "group": "spell",
+  "spell": "fire_earth",
+  "description": "ภูเขาไฟปะทุ (ไฟ+ดิน) — spikes"
+ },
+ "spell_fire_stone": {
+  "file": "sheets/spell_fire_stone.png",
+  "frameWidth": 48,
+  "frameHeight": 64,
+  "frames": 6,
+  "fps": 14,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": true,
+  "group": "spell",
+  "spell": "fire_stone",
+  "description": "ฝนอุกกาบาต (ไฟ+หิน) — meteor"
+ },
+ "spell_fire_dark": {
+  "file": "sheets/spell_fire_dark.png",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 8,
+  "fps": 16,
+  "loop": false,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "spell",
+  "spell": "fire_dark",
+  "description": "เพลิงอเวจี (ไฟ+มืด) — burst"
+ },
+ "spell_fire_light": {
+  "file": "sheets/spell_fire_light.png",
+  "frameWidth": 72,
+  "frameHeight": 72,
+  "frames": 6,
+  "fps": 12,
+  "loop": false,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "spell",
+  "spell": "fire_light",
+  "description": "สุริยคราสพิพากษา (แสง+ไฟ) — rays"
+ },
+ "spell_fire_blood": {
+  "file": "sheets/spell_fire_blood.png",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 8,
+  "fps": 16,
+  "loop": false,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "spell",
+  "spell": "fire_blood",
+  "description": "โลหิตเดือดพล่าน (ไฟ+เลือด) — burst"
+ },
+ "spell_water_wind": {
+  "file": "sheets/spell_water_wind.png",
+  "frameWidth": 40,
+  "frameHeight": 48,
+  "frames": 4,
+  "fps": 6,
+  "loop": true,
+  "anchor": [
+   0.5,
+   1.0
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": false,
+  "group": "spell",
+  "spell": "water_wind",
+  "description": "โกเล็มเหมันต์ (น้ำ+ลม) — golem"
+ },
+ "spell_water_earth": {
+  "file": "sheets/spell_water_earth.png",
+  "frameWidth": 72,
+  "frameHeight": 40,
+  "frames": 6,
+  "fps": 8,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": false,
+  "group": "spell",
+  "spell": "water_earth",
+  "description": "โคลนดูดธรณี (น้ำ+ดิน) — pool"
+ },
+ "spell_water_stone": {
+  "file": "sheets/spell_water_stone.png",
+  "frameWidth": 24,
+  "frameHeight": 12,
+  "frames": 4,
+  "fps": 12,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": true,
+  "group": "spell",
+  "spell": "water_stone",
+  "description": "ผลึกธารน้ำแข็ง (น้ำ+หิน) — shard"
+ },
+ "spell_water_dark": {
+  "file": "sheets/spell_water_dark.png",
+  "frameWidth": 64,
+  "frameHeight": 48,
+  "frames": 6,
+  "fps": 12,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": true,
+  "group": "spell",
+  "spell": "water_dark",
+  "description": "ห้วงสมุทรมืดมิด (น้ำ+มืด) — wave"
+ },
+ "spell_water_light": {
+  "file": "sheets/spell_water_light.png",
+  "frameWidth": 48,
+  "frameHeight": 64,
+  "frames": 8,
+  "fps": 10,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "spell",
+  "spell": "water_light",
+  "description": "น้ำพุแห่งการฟื้นฟู (แสง+น้ำ) — heal"
+ },
+ "spell_water_blood": {
+  "file": "sheets/spell_water_blood.png",
+  "frameWidth": 80,
+  "frameHeight": 80,
+  "frames": 6,
+  "fps": 14,
+  "loop": false,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": false,
+  "group": "spell",
+  "spell": "water_blood",
+  "description": "กระแสโลหิตเชี่ยวกราก (เลือด+น้ำ) — surge ring"
+ },
+ "spell_wind_earth": {
+  "file": "sheets/spell_wind_earth.png",
+  "frameWidth": 56,
+  "frameHeight": 72,
+  "frames": 8,
+  "fps": 12,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": false,
+  "group": "spell",
+  "spell": "wind_earth",
+  "description": "พายุทรายกลืนกิน (ดิน+ลม) — vortex"
+ },
+ "spell_wind_stone": {
+  "file": "sheets/spell_wind_stone.png",
+  "frameWidth": 16,
+  "frameHeight": 10,
+  "frames": 4,
+  "fps": 12,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": true,
+  "group": "spell",
+  "spell": "wind_stone",
+  "description": "พายุสะเก็ดศิลา (หิน+ลม) — shard"
+ },
+ "spell_wind_dark": {
+  "file": "sheets/spell_wind_dark.png",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 8,
+  "fps": 14,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "spell",
+  "spell": "wind_dark",
+  "description": "วายุเงาสังหาร (มืด+ลม) — orbit"
+ },
+ "spell_wind_light": {
+  "file": "sheets/spell_wind_light.png",
+  "frameWidth": 64,
+  "frameHeight": 48,
+  "frames": 6,
+  "fps": 10,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": true,
+  "group": "spell",
+  "spell": "wind_light",
+  "description": "สายลมอวยพร (แสง+ลม) — wave"
+ },
+ "spell_wind_blood": {
+  "file": "sheets/spell_wind_blood.png",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 8,
+  "fps": 14,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "spell",
+  "spell": "wind_blood",
+  "description": "พายุใบมีดโลหิต (เลือด+ลม) — orbit"
+ },
+ "spell_earth_stone": {
+  "file": "sheets/spell_earth_stone.png",
+  "frameWidth": 40,
+  "frameHeight": 48,
+  "frames": 4,
+  "fps": 6,
+  "loop": true,
+  "anchor": [
+   0.5,
+   1.0
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": false,
+  "group": "spell",
+  "spell": "earth_stone",
+  "description": "มหาโกเล็มปฐพี (หิน+ดิน) — golem"
+ },
+ "spell_earth_dark": {
+  "file": "sheets/spell_earth_dark.png",
+  "frameWidth": 56,
+  "frameHeight": 48,
+  "frames": 7,
+  "fps": 14,
+  "loop": false,
+  "anchor": [
+   0.5,
+   1.0
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": false,
+  "group": "spell",
+  "spell": "earth_dark",
+  "description": "สุสานต้องสาป (มืด+ดิน) — spikes"
+ },
+ "spell_earth_light": {
+  "file": "sheets/spell_earth_light.png",
+  "frameWidth": 36,
+  "frameHeight": 96,
+  "frames": 8,
+  "fps": 16,
+  "loop": false,
+  "anchor": [
+   0.5,
+   1.0
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "spell",
+  "spell": "earth_light",
+  "description": "ปราการศิลาศักดิ์สิทธิ์ (แสง+ดิน) — pillar"
+ },
+ "spell_earth_blood": {
+  "file": "sheets/spell_earth_blood.png",
+  "frameWidth": 56,
+  "frameHeight": 48,
+  "frames": 7,
+  "fps": 14,
+  "loop": false,
+  "anchor": [
+   0.5,
+   1.0
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": false,
+  "group": "spell",
+  "spell": "earth_blood",
+  "description": "หนามโลหิตผุด (เลือด+ดิน) — spikes"
+ },
+ "spell_stone_dark": {
+  "file": "sheets/spell_stone_dark.png",
+  "frameWidth": 44,
+  "frameHeight": 44,
+  "frames": 4,
+  "fps": 10,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": false,
+  "group": "spell",
+  "spell": "stone_dark",
+  "description": "ออบซิเดียนทลายทัพ (มืด+หิน) — boulder"
+ },
+ "spell_stone_light": {
+  "file": "sheets/spell_stone_light.png",
+  "frameWidth": 96,
+  "frameHeight": 24,
+  "frames": 6,
+  "fps": 14,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": true,
+  "group": "spell",
+  "spell": "stone_light",
+  "description": "ผลึกเลเซอร์สแกน 360° (แสง+หิน) — beam"
+ },
+ "spell_stone_blood": {
+  "file": "sheets/spell_stone_blood.png",
+  "frameWidth": 40,
+  "frameHeight": 40,
+  "frames": 4,
+  "fps": 10,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": false,
+  "group": "spell",
+  "spell": "stone_blood",
+  "description": "ศิลาโลหิตหนาม (เลือด+หิน) — boulder"
+ },
+ "spell_dark_light": {
+  "file": "sheets/spell_dark_light.png",
+  "frameWidth": 72,
+  "frameHeight": 72,
+  "frames": 6,
+  "fps": 12,
+  "loop": false,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "spell",
+  "spell": "dark_light",
+  "description": "สมดุลสุริยคราส (แสง+มืด) — rays"
+ },
+ "spell_dark_blood": {
+  "file": "sheets/spell_dark_blood.png",
+  "frameWidth": 48,
+  "frameHeight": 32,
+  "frames": 4,
+  "fps": 10,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": false,
+  "group": "spell",
+  "spell": "dark_blood",
+  "description": "คัมภีร์แวมไพร์ (เลือด+มืด) — bats"
+ },
+ "spell_light_blood": {
+  "file": "sheets/spell_light_blood.png",
+  "frameWidth": 80,
+  "frameHeight": 40,
+  "frames": 6,
+  "fps": 14,
+  "loop": false,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "spell",
+  "spell": "light_blood",
+  "description": "การชำระบาปสีชาด (แสง+เลือด) — shockwave"
+ },
+ "spell_earth_earth": {
+  "file": "sheets/spell_earth_earth.png",
+  "frameWidth": 96,
+  "frameHeight": 48,
+  "frames": 6,
+  "fps": 14,
+  "loop": false,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": false,
+  "group": "spell",
+  "spell": "earth_earth",
+  "description": "ปฐพีกัมปนาท (ดิน+ดิน) — shockwave"
+ },
+ "spell_water_water": {
+  "file": "sheets/spell_water_water.png",
+  "frameWidth": 72,
+  "frameHeight": 56,
+  "frames": 6,
+  "fps": 12,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": true,
+  "group": "spell",
+  "spell": "water_water",
+  "description": "คลื่นยักษ์สึนามิ (น้ำ+น้ำ) — wave"
+ },
+ "spell_wind_wind": {
+  "file": "sheets/spell_wind_wind.png",
+  "frameWidth": 48,
+  "frameHeight": 48,
+  "frames": 5,
+  "fps": 18,
+  "loop": false,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "spell",
+  "spell": "wind_wind",
+  "description": "พายุกรรโชก (ลม+ลม) — slash"
+ },
+ "spell_fire_fire": {
+  "file": "sheets/spell_fire_fire.png",
+  "frameWidth": 80,
+  "frameHeight": 80,
+  "frames": 8,
+  "fps": 16,
+  "loop": false,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "spell",
+  "spell": "fire_fire",
+  "description": "อัคคีล้างผลาญ (ไฟ+ไฟ) — burst"
+ },
+ "spell_stone_stone": {
+  "file": "sheets/spell_stone_stone.png",
+  "frameWidth": 48,
+  "frameHeight": 48,
+  "frames": 4,
+  "fps": 10,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": false,
+  "group": "spell",
+  "spell": "stone_stone",
+  "description": "ศิลาถล่มทลาย (หิน+หิน) — boulder"
+ },
+ "spell_dark_dark": {
+  "file": "sheets/spell_dark_dark.png",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 8,
+  "fps": 12,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": false,
+  "group": "spell",
+  "spell": "dark_dark",
+  "description": "หลุมดำกลืนวิญญาณ (มืด+มืด) — blackhole"
+ },
+ "spell_light_light": {
+  "file": "sheets/spell_light_light.png",
+  "frameWidth": 40,
+  "frameHeight": 96,
+  "frames": 8,
+  "fps": 16,
+  "loop": false,
+  "anchor": [
+   0.5,
+   1.0
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "spell",
+  "spell": "light_light",
+  "description": "ทัณฑ์แสงสวรรค์ (แสง+แสง) — pillar"
+ },
+ "spell_blood_blood": {
+  "file": "sheets/spell_blood_blood.png",
+  "frameWidth": 72,
+  "frameHeight": 48,
+  "frames": 7,
+  "fps": 14,
+  "loop": false,
+  "anchor": [
+   0.5,
+   1.0
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": false,
+  "group": "spell",
+  "spell": "blood_blood",
+  "description": "มหาสมุทรโลหิต (เลือด+เลือด) — spikes"
+ },
+ "catalyst_fire": {
+  "file": "sheets/catalyst_fire.png",
+  "frameWidth": 48,
+  "frameHeight": 48,
+  "frames": 8,
+  "fps": 12,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "catalyst",
+  "spell": null,
+  "description": "ตัวเร่งเพลิง — aura ring under the caster"
+ },
+ "catalyst_water": {
+  "file": "sheets/catalyst_water.png",
+  "frameWidth": 48,
+  "frameHeight": 48,
+  "frames": 8,
+  "fps": 12,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "catalyst",
+  "spell": null,
+  "description": "ตัวเร่งเหมันต์ — aura ring under the caster"
+ },
+ "catalyst_wind": {
+  "file": "sheets/catalyst_wind.png",
+  "frameWidth": 48,
+  "frameHeight": 48,
+  "frames": 8,
+  "fps": 12,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "catalyst",
+  "spell": null,
+  "description": "ตัวเร่งวายุ — aura ring under the caster"
+ },
+ "catalyst_earth": {
+  "file": "sheets/catalyst_earth.png",
+  "frameWidth": 48,
+  "frameHeight": 48,
+  "frames": 8,
+  "fps": 12,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "catalyst",
+  "spell": null,
+  "description": "ตัวเร่งปฐพี — aura ring under the caster"
+ },
+ "catalyst_stone": {
+  "file": "sheets/catalyst_stone.png",
+  "frameWidth": 48,
+  "frameHeight": 48,
+  "frames": 8,
+  "fps": 12,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "catalyst",
+  "spell": null,
+  "description": "ตัวเร่งศิลา — aura ring under the caster"
+ },
+ "catalyst_dark": {
+  "file": "sheets/catalyst_dark.png",
+  "frameWidth": 48,
+  "frameHeight": 48,
+  "frames": 8,
+  "fps": 12,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "catalyst",
+  "spell": null,
+  "description": "ตัวเร่งอเวจี — aura ring under the caster"
+ },
+ "catalyst_light": {
+  "file": "sheets/catalyst_light.png",
+  "frameWidth": 48,
+  "frameHeight": 48,
+  "frames": 8,
+  "fps": 12,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "catalyst",
+  "spell": null,
+  "description": "ตัวเร่งแสง — aura ring under the caster"
+ },
+ "catalyst_blood": {
+  "file": "sheets/catalyst_blood.png",
+  "frameWidth": 48,
+  "frameHeight": 48,
+  "frames": 8,
+  "fps": 12,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "catalyst",
+  "spell": null,
+  "description": "ตัวเร่งโลหิต — aura ring under the caster"
+ },
+ "orb_fire": {
+  "file": "sheets/orb_fire.png",
+  "frameWidth": 16,
+  "frameHeight": 16,
+  "frames": 6,
+  "fps": 10,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": false,
+  "group": "item",
+  "spell": null,
+  "description": "Element orb pickup — ไฟ"
+ },
+ "orb_water": {
+  "file": "sheets/orb_water.png",
+  "frameWidth": 16,
+  "frameHeight": 16,
+  "frames": 6,
+  "fps": 10,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": false,
+  "group": "item",
+  "spell": null,
+  "description": "Element orb pickup — น้ำ"
+ },
+ "orb_wind": {
+  "file": "sheets/orb_wind.png",
+  "frameWidth": 16,
+  "frameHeight": 16,
+  "frames": 6,
+  "fps": 10,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": false,
+  "group": "item",
+  "spell": null,
+  "description": "Element orb pickup — ลม"
+ },
+ "orb_earth": {
+  "file": "sheets/orb_earth.png",
+  "frameWidth": 16,
+  "frameHeight": 16,
+  "frames": 6,
+  "fps": 10,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": false,
+  "group": "item",
+  "spell": null,
+  "description": "Element orb pickup — ดิน"
+ },
+ "orb_stone": {
+  "file": "sheets/orb_stone.png",
+  "frameWidth": 16,
+  "frameHeight": 16,
+  "frames": 6,
+  "fps": 10,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": false,
+  "group": "item",
+  "spell": null,
+  "description": "Element orb pickup — หิน"
+ },
+ "orb_dark": {
+  "file": "sheets/orb_dark.png",
+  "frameWidth": 16,
+  "frameHeight": 16,
+  "frames": 6,
+  "fps": 10,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": false,
+  "group": "item",
+  "spell": null,
+  "description": "Element orb pickup — มืด"
+ },
+ "orb_light": {
+  "file": "sheets/orb_light.png",
+  "frameWidth": 16,
+  "frameHeight": 16,
+  "frames": 6,
+  "fps": 10,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": false,
+  "group": "item",
+  "spell": null,
+  "description": "Element orb pickup — แสง"
+ },
+ "orb_blood": {
+  "file": "sheets/orb_blood.png",
+  "frameWidth": 16,
+  "frameHeight": 16,
+  "frames": 6,
+  "fps": 10,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": false,
+  "group": "item",
+  "spell": null,
+  "description": "Element orb pickup — เลือด"
+ },
+ "mana_gem": {
+  "file": "sheets/mana_gem.png",
+  "frameWidth": 12,
+  "frameHeight": 16,
+  "frames": 6,
+  "fps": 8,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": false,
+  "group": "item",
+  "spell": null,
+  "description": "Mana gem pickup (restores MP)"
+ }
+}

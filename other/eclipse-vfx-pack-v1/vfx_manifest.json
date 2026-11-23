@@ -1,0 +1,184 @@
+{
+  "slash_moon": {
+    "file": "sheets/slash_moon.png",
+    "frameWidth": 96,
+    "frameHeight": 96,
+    "frames": 6,
+    "fps": 22,
+    "loop": false,
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "blend": "lighter",
+    "description": "Moonshadow Assassin dash slash \u2014 purple-white crescent. Rotate to dash direction (frame faces right)."
+  },
+  "slash_holy": {
+    "file": "sheets/slash_holy.png",
+    "frameWidth": 96,
+    "frameHeight": 96,
+    "frames": 6,
+    "fps": 22,
+    "loop": false,
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "blend": "lighter",
+    "description": "Holy Bulwark sacred blade slash \u2014 gold crescent. Rotate to swing direction."
+  },
+  "hit_spark": {
+    "file": "sheets/hit_spark.png",
+    "frameWidth": 48,
+    "frameHeight": 48,
+    "frames": 5,
+    "fps": 24,
+    "loop": false,
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "blend": "lighter",
+    "description": "Generic impact spark for hits/crits. Tint-free; draw at hit point."
+  },
+  "explosion_fire": {
+    "file": "sheets/explosion_fire.png",
+    "frameWidth": 96,
+    "frameHeight": 96,
+    "frames": 8,
+    "fps": 16,
+    "loop": false,
+    "anchor": [
+      0.5,
+      0.55
+    ],
+    "blend": "source-over",
+    "description": "Fire explosion \u2014 meteor, explosive barrel, Hellfire soul burst, supernova (scale up)."
+  },
+  "explosion_hellfire": {
+    "file": "sheets/explosion_hellfire.png",
+    "frameWidth": 96,
+    "frameHeight": 96,
+    "frames": 8,
+    "fps": 16,
+    "loop": false,
+    "anchor": [
+      0.5,
+      0.55
+    ],
+    "blend": "source-over",
+    "description": "Demon Lord hellfire burst \u2014 orange-black flame. Soul explosion / Gate of Inferno."
+  },
+  "lightning_strike": {
+    "file": "sheets/lightning_strike.png",
+    "frameWidth": 64,
+    "frameHeight": 128,
+    "frames": 6,
+    "fps": 20,
+    "loop": false,
+    "anchor": [
+      0.5,
+      0.9
+    ],
+    "blend": "lighter",
+    "description": "Lightning strike from sky; anchor is the ground impact point (bottom)."
+  },
+  "ice_nova": {
+    "file": "sheets/ice_nova.png",
+    "frameWidth": 96,
+    "frameHeight": 96,
+    "frames": 7,
+    "fps": 16,
+    "loop": false,
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "blend": "lighter",
+    "description": "Frost nova ring with 8 shards. Shatter reaction / Absolute Zero."
+  },
+  "magic_circle_gold": {
+    "file": "sheets/magic_circle_gold.png",
+    "frameWidth": 96,
+    "frameHeight": 96,
+    "frames": 8,
+    "fps": 10,
+    "loop": true,
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "blend": "lighter",
+    "description": "Looping gold rune circle \u2014 Sanctum Saint sigil, Rite of the Seven Sins base, portals. Draw on ground and squash Y by ISO_TILT (0.68) for 2.5D floor look."
+  },
+  "magic_circle_crimson": {
+    "file": "sheets/magic_circle_crimson.png",
+    "frameWidth": 96,
+    "frameHeight": 96,
+    "frames": 8,
+    "fps": 10,
+    "loop": true,
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "blend": "lighter",
+    "description": "Looping crimson rune circle \u2014 Vampire / Demon rituals, cursed statues. Draw on ground and squash Y by ISO_TILT (0.68) for 2.5D floor look."
+  },
+  "holy_pillar": {
+    "file": "sheets/holy_pillar.png",
+    "frameWidth": 64,
+    "frameHeight": 160,
+    "frames": 7,
+    "fps": 14,
+    "loop": false,
+    "anchor": [
+      0.5,
+      0.94
+    ],
+    "blend": "lighter",
+    "description": "Pillar of light from sky \u2014 Judgement Pillar, Saint ultimate finisher. Anchor = ground."
+  },
+  "blood_burst": {
+    "file": "sheets/blood_burst.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "frames": 6,
+    "fps": 18,
+    "loop": false,
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "blend": "source-over",
+    "description": "Blood splatter \u2014 bleed pop, Crimson Feast drink, Blood Pact."
+  },
+  "void_vortex": {
+    "file": "sheets/void_vortex.png",
+    "frameWidth": 96,
+    "frameHeight": 96,
+    "frames": 8,
+    "fps": 12,
+    "loop": true,
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "blend": "source-over",
+    "description": "Looping dark vortex \u2014 black hole, Gluttony maw, Sloth time field, portals."
+  },
+  "heal_sparkle": {
+    "file": "sheets/heal_sparkle.png",
+    "frameWidth": 48,
+    "frameHeight": 64,
+    "frames": 8,
+    "fps": 12,
+    "loop": true,
+    "anchor": [
+      0.5,
+      0.9
+    ],
+    "blend": "lighter",
+    "description": "Looping rising + sparkles \u2014 regen zones, flower field, sanctum heal. Anchor = feet."
+  }
+}

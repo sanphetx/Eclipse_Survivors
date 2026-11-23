@@ -1,0 +1,190 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Cinzel', 'Anuphan', serif;
+    --font-sans: 'Anuphan', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #07090E;
+    color: #EDE6D6;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono-num {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.pixelated {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+/* Dark-Fantasy Medieval Forged-Iron & Aged Brass Surfaces */
+.gothic-panel {
+  background: linear-gradient(180deg, rgba(19, 19, 26, 0.94) 0%, rgba(11, 11, 16, 0.97) 100%);
+  border: 1px solid rgba(196, 155, 82, 0.28);
+  box-shadow:
+    inset 0 1px 0 rgba(243, 210, 144, 0.14),
+    0 20px 44px rgba(0, 0, 0, 0.72);
+}
+
+.gothic-hud-box {
+  background: linear-gradient(180deg, rgba(18, 18, 25, 0.92) 0%, rgba(10, 10, 15, 0.95) 100%);
+  border: 1px solid rgba(182, 146, 84, 0.28);
+  box-shadow:
+    inset 0 1px 0 rgba(235, 198, 124, 0.12),
+    0 6px 18px rgba(0, 0, 0, 0.56);
+  backdrop-filter: blur(6px);
+}
+
+.gothic-card {
+  background: linear-gradient(180deg, rgba(20, 20, 28, 0.88) 0%, rgba(12, 12, 18, 0.94) 100%);
+  border: 1px solid rgba(148, 134, 112, 0.2);
+  box-shadow: inset 0 1px 0 rgba(255, 240, 210, 0.05);
+  transition:
+    border-color 160ms cubic-bezier(0.16, 1, 0.3, 1),
+    background-color 160ms cubic-bezier(0.16, 1, 0.3, 1),
+    transform 160ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.gothic-card:hover {
+  border-color: rgba(208, 166, 92, 0.5);
+  background: linear-gradient(180deg, rgba(26, 25, 34, 0.94) 0%, rgba(14, 14, 21, 0.96) 100%);
+}
+
+.gothic-card-active {
+  background: linear-gradient(180deg, rgba(36, 27, 20, 0.95) 0%, rgba(17, 13, 16, 0.98) 100%);
+  border: 1px solid rgba(226, 178, 86, 0.88);
+  box-shadow:
+    inset 0 1px 0 rgba(254, 224, 150, 0.24),
+    0 8px 24px rgba(0, 0, 0, 0.55);
+}
+
+.gothic-btn-gold {
+  background: linear-gradient(180deg, #E2AC44 0%, #B77C20 55%, #8C5A12 100%);
+  border: 1px solid #F3CE74;
+  color: #140E06;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 244, 208, 0.52),
+    0 6px 20px rgba(180, 118, 22, 0.32);
+  transition:
+    filter 160ms cubic-bezier(0.16, 1, 0.3, 1),
+    transform 160ms cubic-bezier(0.16, 1, 0.3, 1),
+    box-shadow 160ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.gothic-btn-gold:hover:not(:disabled) {
+  background: linear-gradient(180deg, #EEBA52 0%, #C68827 55%, #9B6516 100%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 248, 224, 0.68),
+    0 8px 26px rgba(217, 154, 48, 0.42);
+}
+
+.gothic-btn-gold:active:not(:disabled) {
+  transform: scale(0.99);
+}
+
+.gothic-btn-iron {
+  background: linear-gradient(180deg, rgba(28, 28, 37, 0.95) 0%, rgba(15, 15, 22, 0.98) 100%);
+  border: 1px solid rgba(164, 148, 122, 0.28);
+  color: #E5DEC9;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 244, 214, 0.08),
+    0 4px 12px rgba(0, 0, 0, 0.4);
+  transition:
+    border-color 160ms cubic-bezier(0.16, 1, 0.3, 1),
+    background-color 160ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.gothic-btn-iron:hover:not(:disabled) {
+  background: linear-gradient(180deg, rgba(38, 37, 48, 0.98) 0%, rgba(20, 19, 27, 0.98) 100%);
+  border-color: rgba(205, 164, 88, 0.56);
+}
+
+/* Custom thin dark-fantasy scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(10, 9, 14, 0.85);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 120, 74, 0.45);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(205, 164, 88, 0.75);
+}
+
+@keyframes chestFloat {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.animate-chest-float {
+  animation: chestFloat 2.2s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-chest-float {
+    animation: none;
+  }
+}
+
+/* ===== Combo Meter ===== */
+@keyframes comboPulse {
+  0% { transform: scale(1.18); }
+  100% { transform: scale(1); }
+}
+.combo-pulse {
+  animation: comboPulse 0.18s ease-out;
+  transform-origin: right center;
+}
+@keyframes comboBurst {
+  0% { opacity: 0; transform: scale(0.4) translateY(10px); }
+  18% { opacity: 1; transform: scale(1.35) translateY(0); }
+  35% { transform: scale(1); }
+  80% { opacity: 1; transform: scale(1) translateY(-6px); }
+  100% { opacity: 0; transform: scale(1.1) translateY(-18px); }
+}
+.combo-burst {
+  animation: comboBurst 1.6s ease-out forwards;
+  transform-origin: right bottom;
+}
+@keyframes comboBreak {
+  0% { opacity: 0; transform: translateX(10px); }
+  10% { opacity: 1; transform: translateX(-4px); }
+  16% { transform: translateX(3px); }
+  22% { transform: translateX(0); }
+  75% { opacity: 1; }
+  100% { opacity: 0; }
+}
+.combo-break {
+  animation: comboBreak 1.8s ease-out forwards;
+}
+@media (prefers-reduced-motion: reduce) {
+  .combo-pulse, .combo-burst, .combo-break { animation-duration: 0.01ms; }
+}

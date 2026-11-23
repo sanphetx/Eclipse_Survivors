@@ -1,0 +1,648 @@
+{
+  "banana": {
+    "file": "sheets/banana.png",
+    "frameWidth": 24,
+    "frameHeight": 24,
+    "frames": 4,
+    "fps": 14,
+    "loop": true,
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "blend": "source-over",
+    "weapon": "banana",
+    "evolved": false,
+    "rotateToVelocity": false,
+    "description": "Spinning banana boomerang."
+  },
+  "banana_evo": {
+    "file": "sheets/banana_evo.png",
+    "frameWidth": 24,
+    "frameHeight": 24,
+    "frames": 4,
+    "fps": 14,
+    "loop": true,
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "blend": "source-over",
+    "weapon": "banana",
+    "evolved": true,
+    "rotateToVelocity": false,
+    "description": "Spinning banana boomerang \u2014 golden (Golden Banana Storm)."
+  },
+  "axe": {
+    "file": "sheets/axe.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "frames": 4,
+    "fps": 14,
+    "loop": true,
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "blend": "source-over",
+    "weapon": "axe",
+    "evolved": false,
+    "rotateToVelocity": false,
+    "description": "Spinning war axe."
+  },
+  "axe_evo": {
+    "file": "sheets/axe_evo.png",
+    "frameWidth": 40,
+    "frameHeight": 40,
+    "frames": 4,
+    "fps": 14,
+    "loop": true,
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "blend": "source-over",
+    "weapon": "axe",
+    "evolved": true,
+    "rotateToVelocity": false,
+    "description": "Spinning war axe \u2014 crimson Blood Axe with red glow."
+  },
+  "dagger": {
+    "file": "sheets/dagger.png",
+    "frameWidth": 24,
+    "frameHeight": 12,
+    "frames": 2,
+    "fps": 8,
+    "loop": true,
+    "anchor": [
+      0.65,
+      0.5
+    ],
+    "blend": "source-over",
+    "weapon": "dagger",
+    "evolved": false,
+    "rotateToVelocity": true,
+    "description": "Thrown dagger pointing right."
+  },
+  "dagger_evo": {
+    "file": "sheets/dagger_evo.png",
+    "frameWidth": 34,
+    "frameHeight": 14,
+    "frames": 2,
+    "fps": 8,
+    "loop": true,
+    "anchor": [
+      0.65,
+      0.5
+    ],
+    "blend": "source-over",
+    "weapon": "dagger",
+    "evolved": true,
+    "rotateToVelocity": true,
+    "description": "Thrown dagger pointing right \u2014 Shadow dagger with purple trail."
+  },
+  "katana": {
+    "file": "sheets/katana.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "frames": 5,
+    "fps": 20,
+    "loop": false,
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "blend": "lighter",
+    "weapon": "katana",
+    "evolved": false,
+    "rotateToVelocity": true,
+    "description": "Wind crescent slash (cyan). Rotate to swing direction (faces right)."
+  },
+  "katana_evo": {
+    "file": "sheets/katana_evo.png",
+    "frameWidth": 64,
+    "frameHeight": 64,
+    "frames": 5,
+    "fps": 20,
+    "loop": false,
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "blend": "lighter",
+    "weapon": "katana",
+    "evolved": true,
+    "rotateToVelocity": true,
+    "description": "Dimension Slash \u2014 purple crescent + rift line. Rotate to swing direction (faces right)."
+  },
+  "spear": {
+    "file": "sheets/spear.png",
+    "frameWidth": 48,
+    "frameHeight": 12,
+    "frames": 2,
+    "fps": 10,
+    "loop": true,
+    "anchor": [
+      0.7,
+      0.5
+    ],
+    "blend": "source-over",
+    "weapon": "spear",
+    "evolved": false,
+    "rotateToVelocity": true,
+    "description": "Thrust spear pointing right."
+  },
+  "spear_evo": {
+    "file": "sheets/spear_evo.png",
+    "frameWidth": 64,
+    "frameHeight": 18,
+    "frames": 4,
+    "fps": 10,
+    "loop": true,
+    "anchor": [
+      0.7,
+      0.5
+    ],
+    "blend": "source-over",
+    "weapon": "spear",
+    "evolved": true,
+    "rotateToVelocity": true,
+    "description": "Thrust spear pointing right \u2014 Golden Dragon Spear with flame tail."
+  },
+  "cat": {
+    "file": "sheets/cat.png",
+    "frameWidth": 24,
+    "frameHeight": 24,
+    "frames": 4,
+    "fps": 12,
+    "loop": true,
+    "anchor": [
+      0.5,
+      0.75
+    ],
+    "blend": "source-over",
+    "weapon": "cat",
+    "evolved": false,
+    "rotateToVelocity": false,
+    "description": "Dashing attack cat facing right."
+  },
+  "cat_evo": {
+    "file": "sheets/cat_evo.png",
+    "frameWidth": 24,
+    "frameHeight": 24,
+    "frames": 4,
+    "fps": 12,
+    "loop": true,
+    "anchor": [
+      0.5,
+      0.75
+    ],
+    "blend": "source-over",
+    "weapon": "cat",
+    "evolved": true,
+    "rotateToVelocity": false,
+    "description": "Dashing attack cat facing right \u2014 Emperor orange cat with crown."
+  },
+  "bird": {
+    "file": "sheets/bird.png",
+    "frameWidth": 24,
+    "frameHeight": 24,
+    "frames": 4,
+    "fps": 12,
+    "loop": true,
+    "anchor": [
+      0.5,
+      0.55
+    ],
+    "blend": "source-over",
+    "weapon": "bird",
+    "evolved": false,
+    "rotateToVelocity": true,
+    "description": "Flapping bird facing right."
+  },
+  "bird_evo": {
+    "file": "sheets/bird_evo.png",
+    "frameWidth": 24,
+    "frameHeight": 24,
+    "frames": 4,
+    "fps": 12,
+    "loop": true,
+    "anchor": [
+      0.5,
+      0.55
+    ],
+    "blend": "source-over",
+    "weapon": "bird",
+    "evolved": true,
+    "rotateToVelocity": true,
+    "description": "Flapping bird facing right \u2014 Golden King Bird."
+  },
+  "wand_missile": {
+    "file": "sheets/wand_missile.png",
+    "frameWidth": 24,
+    "frameHeight": 24,
+    "frames": 4,
+    "fps": 14,
+    "loop": true,
+    "anchor": [
+      0.62,
+      0.5
+    ],
+    "blend": "lighter",
+    "weapon": "wand",
+    "evolved": false,
+    "rotateToVelocity": true,
+    "description": "Magic star missile with tail, faces right."
+  },
+  "wand_missile_evo": {
+    "file": "sheets/wand_missile_evo.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "frames": 4,
+    "fps": 14,
+    "loop": true,
+    "anchor": [
+      0.62,
+      0.5
+    ],
+    "blend": "lighter",
+    "weapon": "wand",
+    "evolved": true,
+    "rotateToVelocity": true,
+    "description": "Magic star missile with tail, faces right \u2014 Astral gold star."
+  },
+  "lightning_zap": {
+    "file": "sheets/lightning_zap.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "frames": 4,
+    "fps": 18,
+    "loop": true,
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "blend": "lighter",
+    "weapon": "lightning",
+    "evolved": false,
+    "rotateToVelocity": false,
+    "description": "Electric zap/shock burst on hit (use with lightning_strike from pack 1)."
+  },
+  "lightning_cloud_evo": {
+    "file": "sheets/lightning_cloud_evo.png",
+    "frameWidth": 64,
+    "frameHeight": 32,
+    "frames": 4,
+    "fps": 8,
+    "loop": true,
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "blend": "source-over",
+    "weapon": "lightning",
+    "evolved": true,
+    "rotateToVelocity": false,
+    "description": "Evolved: storm cloud that follows the player (Heaven's Thunder Judgement)."
+  },
+  "fireorb": {
+    "file": "sheets/fireorb.png",
+    "frameWidth": 24,
+    "frameHeight": 24,
+    "frames": 4,
+    "fps": 12,
+    "loop": true,
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "blend": "lighter",
+    "weapon": "fireorb",
+    "evolved": false,
+    "rotateToVelocity": false,
+    "description": "Orbiting fireball."
+  },
+  "fireorb_evo": {
+    "file": "sheets/fireorb_evo.png",
+    "frameWidth": 36,
+    "frameHeight": 36,
+    "frames": 4,
+    "fps": 12,
+    "loop": true,
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "blend": "lighter",
+    "weapon": "fireorb",
+    "evolved": true,
+    "rotateToVelocity": false,
+    "description": "Orbiting fireball \u2014 evolved Eclipse Sun with corona rays."
+  },
+  "frost_flake": {
+    "file": "sheets/frost_flake.png",
+    "frameWidth": 16,
+    "frameHeight": 16,
+    "frames": 4,
+    "fps": 10,
+    "loop": true,
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "blend": "lighter",
+    "weapon": "frostnova",
+    "evolved": false,
+    "rotateToVelocity": false,
+    "description": "Snowflake shard projectile (spinning)."
+  },
+  "frost_flake_evo": {
+    "file": "sheets/frost_flake_evo.png",
+    "frameWidth": 24,
+    "frameHeight": 24,
+    "frames": 4,
+    "fps": 10,
+    "loop": true,
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "blend": "lighter",
+    "weapon": "frostnova",
+    "evolved": true,
+    "rotateToVelocity": false,
+    "description": "Snowflake shard projectile (spinning) \u2014 evolved Blizzard flake."
+  },
+  "meteor": {
+    "file": "sheets/meteor.png",
+    "frameWidth": 32,
+    "frameHeight": 32,
+    "frames": 4,
+    "fps": 12,
+    "loop": true,
+    "anchor": [
+      0.34,
+      0.66
+    ],
+    "blend": "source-over",
+    "weapon": "meteor",
+    "evolved": false,
+    "rotateToVelocity": false,
+    "description": "Falling meteor (anchor = rock); spawn above target and move down-left."
+  },
+  "meteor_evo": {
+    "file": "sheets/meteor_evo.png",
+    "frameWidth": 48,
+    "frameHeight": 48,
+    "frames": 4,
+    "fps": 12,
+    "loop": true,
+    "anchor": [
+      0.34,
+      0.66
+    ],
+    "blend": "source-over",
+    "weapon": "meteor",
+    "evolved": true,
+    "rotateToVelocity": false,
+    "description": "Falling meteor (anchor = rock); spawn above target and move down-left \u2014 evolved Doomsday void meteor."
+  },
+  "laser_tile": {
+    "file": "sheets/laser_tile.png",
+    "frameWidth": 32,
+    "frameHeight": 12,
+    "frames": 4,
+    "fps": 14,
+    "loop": true,
+    "anchor": [
+      0.0,
+      0.5
+    ],
+    "blend": "lighter",
+    "weapon": "laser",
+    "evolved": false,
+    "rotateToVelocity": true,
+    "description": "Repeatable beam segment \u2014 draw tiled from emitter along beam angle (pink)."
+  },
+  "laser_tile_evo": {
+    "file": "sheets/laser_tile_evo.png",
+    "frameWidth": 32,
+    "frameHeight": 12,
+    "frames": 4,
+    "fps": 14,
+    "loop": true,
+    "anchor": [
+      0.0,
+      0.5
+    ],
+    "blend": "lighter",
+    "weapon": "laser",
+    "evolved": true,
+    "rotateToVelocity": true,
+    "description": "Repeatable beam segment \u2014 draw tiled from emitter along beam angle \u2014 evolved rainbow beam."
+  },
+  "water_bolt": {
+    "file": "sheets/water_bolt.png",
+    "frameWidth": 16,
+    "frameHeight": 12,
+    "frames": 4,
+    "fps": 14,
+    "loop": true,
+    "anchor": [
+      0.8,
+      0.5
+    ],
+    "blend": "source-over",
+    "weapon": "watergun",
+    "evolved": false,
+    "rotateToVelocity": true,
+    "description": "Water squirt facing right."
+  },
+  "water_bolt_evo": {
+    "file": "sheets/water_bolt_evo.png",
+    "frameWidth": 28,
+    "frameHeight": 14,
+    "frames": 4,
+    "fps": 14,
+    "loop": true,
+    "anchor": [
+      0.8,
+      0.5
+    ],
+    "blend": "source-over",
+    "weapon": "watergun",
+    "evolved": true,
+    "rotateToVelocity": true,
+    "description": "Water squirt facing right \u2014 evolved high-pressure stream."
+  },
+  "shield": {
+    "file": "sheets/shield.png",
+    "frameWidth": 24,
+    "frameHeight": 24,
+    "frames": 4,
+    "fps": 10,
+    "loop": true,
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "blend": "source-over",
+    "weapon": "shield",
+    "evolved": false,
+    "rotateToVelocity": false,
+    "description": "Orbiting spiked shield (spins)."
+  },
+  "shield_evo": {
+    "file": "sheets/shield_evo.png",
+    "frameWidth": 24,
+    "frameHeight": 24,
+    "frames": 4,
+    "fps": 10,
+    "loop": true,
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "blend": "source-over",
+    "weapon": "shield",
+    "evolved": true,
+    "rotateToVelocity": false,
+    "description": "Orbiting spiked shield (spins) \u2014 evolved golden Fortress shield."
+  },
+  "garlic_aura": {
+    "file": "sheets/garlic_aura.png",
+    "frameWidth": 96,
+    "frameHeight": 96,
+    "frames": 6,
+    "fps": 10,
+    "loop": true,
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "blend": "lighter",
+    "weapon": "garlic",
+    "evolved": false,
+    "rotateToVelocity": false,
+    "description": "Looping protective aura ring (draw on ground with ISO squash or upright)."
+  },
+  "garlic_aura_evo": {
+    "file": "sheets/garlic_aura_evo.png",
+    "frameWidth": 96,
+    "frameHeight": 96,
+    "frames": 6,
+    "fps": 10,
+    "loop": true,
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "blend": "lighter",
+    "weapon": "garlic",
+    "evolved": true,
+    "rotateToVelocity": false,
+    "description": "Looping protective aura ring (draw on ground with ISO squash or upright) \u2014 evolved crimson soul-drain aura."
+  },
+  "mace_quake": {
+    "file": "sheets/mace_quake.png",
+    "frameWidth": 96,
+    "frameHeight": 96,
+    "frames": 6,
+    "fps": 14,
+    "loop": false,
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "blend": "source-over",
+    "weapon": "mace",
+    "evolved": false,
+    "rotateToVelocity": false,
+    "description": "Ground slam: cracks + shock ring + flying rocks."
+  },
+  "mace_quake_evo": {
+    "file": "sheets/mace_quake_evo.png",
+    "frameWidth": 96,
+    "frameHeight": 96,
+    "frames": 6,
+    "fps": 14,
+    "loop": false,
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "blend": "source-over",
+    "weapon": "mace",
+    "evolved": true,
+    "rotateToVelocity": false,
+    "description": "Ground slam: cracks + shock ring + flying rocks \u2014 evolved lava-crack Wrathquake."
+  },
+  "chain_ball": {
+    "file": "sheets/chain_ball.png",
+    "frameWidth": 24,
+    "frameHeight": 24,
+    "frames": 4,
+    "fps": 16,
+    "loop": true,
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "blend": "source-over",
+    "weapon": "chain",
+    "evolved": false,
+    "rotateToVelocity": false,
+    "description": "Spiked flail ball (spinning) \u2014 draw chain links as a line to the player."
+  },
+  "chain_ball_evo": {
+    "file": "sheets/chain_ball_evo.png",
+    "frameWidth": 24,
+    "frameHeight": 24,
+    "frames": 4,
+    "fps": 16,
+    "loop": true,
+    "anchor": [
+      0.5,
+      0.5
+    ],
+    "blend": "source-over",
+    "weapon": "chain",
+    "evolved": true,
+    "rotateToVelocity": false,
+    "description": "Spiked flail ball (spinning) \u2014 draw chain links as a line to the player \u2014 evolved Hellfire Chain ball."
+  },
+  "totem": {
+    "file": "sheets/totem.png",
+    "frameWidth": 24,
+    "frameHeight": 56,
+    "frames": 4,
+    "fps": 6,
+    "loop": true,
+    "anchor": [
+      0.5,
+      0.96
+    ],
+    "blend": "source-over",
+    "weapon": "totem",
+    "evolved": false,
+    "rotateToVelocity": false,
+    "description": "Holy totem pillar with pulsing runes (anchor = ground)."
+  },
+  "totem_evo": {
+    "file": "sheets/totem_evo.png",
+    "frameWidth": 24,
+    "frameHeight": 56,
+    "frames": 4,
+    "fps": 6,
+    "loop": true,
+    "anchor": [
+      0.5,
+      0.96
+    ],
+    "blend": "source-over",
+    "weapon": "totem",
+    "evolved": true,
+    "rotateToVelocity": false,
+    "description": "Holy totem pillar with pulsing runes (anchor = ground) \u2014 evolved golden Grand Citadel pillar."
+  }
+}

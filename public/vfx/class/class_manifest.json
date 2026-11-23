@@ -1,0 +1,597 @@
+{
+ "hunter_shadow_slash": {
+  "file": "sheets/hunter_shadow_slash.png",
+  "frameWidth": 96,
+  "frameHeight": 24,
+  "frames": 6,
+  "fps": 20,
+  "loop": false,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": true,
+  "group": "assassin",
+  "spell": null,
+  "description": "นักฆ่า: ฟันเงาตามแนวแดช (หมุนตามทิศแดช)"
+ },
+ "hunter_afterimage": {
+  "file": "sheets/hunter_afterimage.png",
+  "frameWidth": 24,
+  "frameHeight": 32,
+  "frames": 4,
+  "fps": 12,
+  "loop": false,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": false,
+  "group": "assassin",
+  "spell": null,
+  "description": "นักฆ่า: ภาพติดตา 4 ระดับความจาง (วาดเฟรม 0→3 ตามระยะ)"
+ },
+ "hunter_crit_spark": {
+  "file": "sheets/hunter_crit_spark.png",
+  "frameWidth": 40,
+  "frameHeight": 40,
+  "frames": 5,
+  "fps": 20,
+  "loop": false,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "assassin",
+  "spell": null,
+  "description": "นักฆ่า: ประกายคริ/ลอบกัด"
+ },
+ "hunter_dash_charges": {
+  "file": "sheets/hunter_dash_charges.png",
+  "frameWidth": 24,
+  "frameHeight": 8,
+  "frames": 4,
+  "fps": 1,
+  "loop": false,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": false,
+  "group": "assassin",
+  "spell": null,
+  "description": "นักฆ่า: จุดชาร์จแดช (เฟรม = จำนวนชาร์จ 0–3)"
+ },
+ "hunter_shadow_dagger": {
+  "file": "sheets/hunter_shadow_dagger.png",
+  "frameWidth": 16,
+  "frameHeight": 8,
+  "frames": 4,
+  "fps": 12,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": true,
+  "group": "assassin",
+  "spell": null,
+  "description": "นักฆ่า: มีดเงาจากคริ"
+ },
+ "hunter_ult_moon": {
+  "file": "sheets/hunter_ult_moon.png",
+  "frameWidth": 96,
+  "frameHeight": 96,
+  "frames": 6,
+  "fps": 6,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "assassin",
+  "spell": null,
+  "description": "นักฆ่า: พระจันทร์เสี้ยวพื้นหลังท่าราตรีพันเงา"
+ },
+ "knight_sacred_blade": {
+  "file": "sheets/knight_sacred_blade.png",
+  "frameWidth": 12,
+  "frameHeight": 36,
+  "frames": 4,
+  "fps": 6,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": true,
+  "group": "knight",
+  "spell": null,
+  "description": "อัศวิน: ดาบลอยศักดิ์สิทธิ์ (หมุนตามทิศพุ่ง)"
+ },
+ "knight_blade_slash": {
+  "file": "sheets/knight_blade_slash.png",
+  "frameWidth": 40,
+  "frameHeight": 40,
+  "frames": 5,
+  "fps": 18,
+  "loop": false,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "knight",
+  "spell": null,
+  "description": "อัศวิน: รอยฟันของดาบลอย"
+ },
+ "knight_parry": {
+  "file": "sheets/knight_parry.png",
+  "frameWidth": 56,
+  "frameHeight": 56,
+  "frames": 5,
+  "fps": 18,
+  "loop": false,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "knight",
+  "spell": null,
+  "description": "อัศวิน: PARRY แสงทอง"
+ },
+ "knight_bulwark_spin": {
+  "file": "sheets/knight_bulwark_spin.png",
+  "frameWidth": 80,
+  "frameHeight": 80,
+  "frames": 8,
+  "fps": 16,
+  "loop": false,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "knight",
+  "spell": null,
+  "description": "อัศวิน: ป้อมปราการ ดาบฟันวงรอบตัว"
+ },
+ "knight_taunt": {
+  "file": "sheets/knight_taunt.png",
+  "frameWidth": 96,
+  "frameHeight": 48,
+  "frames": 6,
+  "fps": 12,
+  "loop": false,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "knight",
+  "spell": null,
+  "description": "อัศวิน: ทุบโล่ยั่วยุ (วงพื้น)"
+ },
+ "knight_excalibur": {
+  "file": "sheets/knight_excalibur.png",
+  "frameWidth": 48,
+  "frameHeight": 128,
+  "frames": 8,
+  "fps": 14,
+  "loop": false,
+  "anchor": [
+   0.5,
+   1.0
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": false,
+  "group": "knight",
+  "spell": null,
+  "description": "อัศวิน: เอ็กซ์แคลิเบอร์ตกจากฟ้า + แสงกระทบ"
+ },
+ "saint_sigil": {
+  "file": "sheets/saint_sigil.png",
+  "frameWidth": 48,
+  "frameHeight": 48,
+  "frames": 8,
+  "fps": 10,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "saint",
+  "spell": null,
+  "description": "นักบุญ: ตราศักดิ์สิทธิ์บนพื้น"
+ },
+ "saint_sanctum": {
+  "file": "sheets/saint_sanctum.png",
+  "frameWidth": 128,
+  "frameHeight": 96,
+  "frames": 6,
+  "fps": 8,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "saint",
+  "spell": null,
+  "description": "นักบุญ: แดนสามเหลี่ยม (ยืด/หมุนให้ตรงกับ 3 ตรา)"
+ },
+ "saint_sigil_beam": {
+  "file": "sheets/saint_sigil_beam.png",
+  "frameWidth": 64,
+  "frameHeight": 10,
+  "frames": 6,
+  "fps": 14,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": true,
+  "group": "saint",
+  "spell": null,
+  "description": "นักบุญ: ลำแสงจากตรายิงมอน"
+ },
+ "saint_golem": {
+  "file": "sheets/saint_golem.png",
+  "frameWidth": 40,
+  "frameHeight": 48,
+  "frames": 4,
+  "fps": 6,
+  "loop": true,
+  "anchor": [
+   0.5,
+   1.0
+  ],
+  "blend": "source-over",
+  "rotateToVelocity": false,
+  "group": "saint",
+  "spell": null,
+  "description": "นักบุญ: โกเล็มผู้พิทักษ์"
+ },
+ "saint_golem_taunt": {
+  "file": "sheets/saint_golem_taunt.png",
+  "frameWidth": 128,
+  "frameHeight": 64,
+  "frames": 6,
+  "fps": 12,
+  "loop": false,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "saint",
+  "spell": null,
+  "description": "นักบุญ: โกเล็มคำรามยั่วยุ"
+ },
+ "saint_judgement_pillar": {
+  "file": "sheets/saint_judgement_pillar.png",
+  "frameWidth": 44,
+  "frameHeight": 128,
+  "frames": 8,
+  "fps": 16,
+  "loop": false,
+  "anchor": [
+   0.5,
+   1.0
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "saint",
+  "spell": null,
+  "description": "นักบุญ: เสาพิพากษา"
+ },
+ "mage_void_infusion": {
+  "file": "sheets/mage_void_infusion.png",
+  "frameWidth": 64,
+  "frameHeight": 64,
+  "frames": 8,
+  "fps": 14,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "archmage",
+  "spell": null,
+  "description": "จอมเวทย์: Void Infusion (ออร่ารอบตัว)"
+ },
+ "mage_wind_barrier": {
+  "file": "sheets/mage_wind_barrier.png",
+  "frameWidth": 72,
+  "frameHeight": 72,
+  "frames": 8,
+  "fps": 14,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "archmage",
+  "spell": null,
+  "description": "จอมเวทย์: บาเรียวายุ"
+ },
+ "mage_fusion_cast": {
+  "file": "sheets/mage_fusion_cast.png",
+  "frameWidth": 48,
+  "frameHeight": 48,
+  "frames": 8,
+  "fps": 18,
+  "loop": false,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "archmage",
+  "spell": null,
+  "description": "จอมเวทย์: แฟลชตอนผสานเวทย์สำเร็จ"
+ },
+ "chronos_timestop": {
+  "file": "sheets/chronos_timestop.png",
+  "frameWidth": 96,
+  "frameHeight": 96,
+  "frames": 8,
+  "fps": 8,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "chronos",
+  "spell": null,
+  "description": "เทพเวลา: นาฬิกาหยุดเวลา (วาดใหญ่กลางจอ โปร่งแสง)"
+ },
+ "chronos_ripple": {
+  "file": "sheets/chronos_ripple.png",
+  "frameWidth": 128,
+  "frameHeight": 64,
+  "frames": 6,
+  "fps": 14,
+  "loop": false,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "chronos",
+  "spell": null,
+  "description": "เทพเวลา: คลื่นเวลาตอนเริ่ม/จบหยุดเวลา"
+ },
+ "death_scythe_nova": {
+  "file": "sheets/death_scythe_nova.png",
+  "frameWidth": 96,
+  "frameHeight": 96,
+  "frames": 7,
+  "fps": 16,
+  "loop": false,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "death",
+  "spell": null,
+  "description": "เทพความตาย: เคียววิญญาณ Nova"
+ },
+ "death_soul_wisp": {
+  "file": "sheets/death_soul_wisp.png",
+  "frameWidth": 16,
+  "frameHeight": 24,
+  "frames": 6,
+  "fps": 10,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "death",
+  "spell": null,
+  "description": "เทพความตาย: ดวงวิญญาณ (สแต็ก) ลอยรอบตัว"
+ },
+ "spellblade_wave_fire": {
+  "file": "sheets/spellblade_wave_fire.png",
+  "frameWidth": 64,
+  "frameHeight": 48,
+  "frames": 6,
+  "fps": 16,
+  "loop": false,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": true,
+  "group": "spellblade",
+  "spell": null,
+  "description": "จอมเวทย์ดาบ: คลื่นดาบธาตุfire"
+ },
+ "spellblade_wave_water": {
+  "file": "sheets/spellblade_wave_water.png",
+  "frameWidth": 64,
+  "frameHeight": 48,
+  "frames": 6,
+  "fps": 16,
+  "loop": false,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": true,
+  "group": "spellblade",
+  "spell": null,
+  "description": "จอมเวทย์ดาบ: คลื่นดาบธาตุwater"
+ },
+ "spellblade_wave_wind": {
+  "file": "sheets/spellblade_wave_wind.png",
+  "frameWidth": 64,
+  "frameHeight": 48,
+  "frames": 6,
+  "fps": 16,
+  "loop": false,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": true,
+  "group": "spellblade",
+  "spell": null,
+  "description": "จอมเวทย์ดาบ: คลื่นดาบธาตุwind"
+ },
+ "spellblade_wave_light": {
+  "file": "sheets/spellblade_wave_light.png",
+  "frameWidth": 64,
+  "frameHeight": 48,
+  "frames": 6,
+  "fps": 16,
+  "loop": false,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": true,
+  "group": "spellblade",
+  "spell": null,
+  "description": "จอมเวทย์ดาบ: คลื่นดาบธาตุlight"
+ },
+ "spellblade_wave_dark": {
+  "file": "sheets/spellblade_wave_dark.png",
+  "frameWidth": 64,
+  "frameHeight": 48,
+  "frames": 6,
+  "fps": 16,
+  "loop": false,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": true,
+  "group": "spellblade",
+  "spell": null,
+  "description": "จอมเวทย์ดาบ: คลื่นดาบธาตุdark"
+ },
+ "spellblade_charge_360": {
+  "file": "sheets/spellblade_charge_360.png",
+  "frameWidth": 96,
+  "frameHeight": 96,
+  "frames": 8,
+  "fps": 12,
+  "loop": false,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "spellblade",
+  "spell": null,
+  "description": "จอมเวทย์ดาบ: ชาร์จ 3 วิ แล้วฟัน 360° (เฟรมครึ่งแรก=ชาร์จ)"
+ },
+ "voidless_aura": {
+  "file": "sheets/voidless_aura.png",
+  "frameWidth": 48,
+  "frameHeight": 72,
+  "frames": 8,
+  "fps": 12,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "voidless",
+  "spell": null,
+  "description": "ดาบไร้ธาตุ: ออร่าร่างจุติ (วาดหลังตัวละคร)"
+ },
+ "voidless_heaven_pillar": {
+  "file": "sheets/voidless_heaven_pillar.png",
+  "frameWidth": 40,
+  "frameHeight": 128,
+  "frames": 8,
+  "fps": 16,
+  "loop": false,
+  "anchor": [
+   0.5,
+   1.0
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "voidless",
+  "spell": null,
+  "description": "ดาบไร้ธาตุ: เสาแสงสวรรค์"
+ },
+ "voidless_spirit_sword": {
+  "file": "sheets/voidless_spirit_sword.png",
+  "frameWidth": 12,
+  "frameHeight": 36,
+  "frames": 4,
+  "fps": 6,
+  "loop": true,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": true,
+  "group": "voidless",
+  "spell": null,
+  "description": "ดาบไร้ธาตุ: ดาบวิญญาณ 5 เล่ม"
+ },
+ "voidless_awaken_burst": {
+  "file": "sheets/voidless_awaken_burst.png",
+  "frameWidth": 96,
+  "frameHeight": 96,
+  "frames": 8,
+  "fps": 16,
+  "loop": false,
+  "anchor": [
+   0.5,
+   0.5
+  ],
+  "blend": "lighter",
+  "rotateToVelocity": false,
+  "group": "voidless",
+  "spell": null,
+  "description": "ดาบไร้ธาตุ: ระเบิดตอนจุติ"
+ }
+}
